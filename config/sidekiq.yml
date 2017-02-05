@@ -1,0 +1,6 @@
+# configuration file for Sidekiq
+:concurrency: 10
+#:pidfile: ./tmp/pids/sidekiq.pid
+:logfile: ./log/sidekiq.log
+:queues:
+  - message_send

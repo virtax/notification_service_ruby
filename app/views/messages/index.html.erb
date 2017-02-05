@@ -1,0 +1,1 @@
+<%= react_component 'Messages', { data: @messages.map { |m| { id: m.id, recipients: m.recipients.join(','), subject: m.subject, body: m.body } } } %>

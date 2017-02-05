@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  recipients: MyText
+  subject: MyString
+  body: MyString
+  is_sent: 
+
+two:
+  recipients: MyText
+  subject: MyString
+  body: MyString
+  is_sent: 
