@@ -11,11 +11,6 @@
 /log/*
 !/log/.keep
 /tmp
-config/database.yml
-config/settings.yml
-config/settings/*.yml
 
 public/uploads
 .idea/*
-docker-compose.yml
-.env.development
