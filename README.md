@@ -1,4 +1,4 @@
 # README
 
-./install_local - to install and run locally
-./install_docker - to install and run in docker
+./install_local.sh - to install and run locally
+./install_docker.sh - to install and run in docker
