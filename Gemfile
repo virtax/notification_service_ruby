@@ -13,9 +13,10 @@ gem 'pg'
 gem 'puma', '~> 3.0'
 
 gem 'bootstrap-sass', '~> 3.3.6'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
-gem 'react-rails', '~> 1.0'
+gem 'sass-rails', '>= 3.2'
+
+gem 'react-rails', '~> 1.10'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -38,24 +39,20 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'sidekiq'
-
+gem 'foreman', require: false
 
 group :development do
-  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
   gem 'spring'
   gem 'listen', '~> 3.0.5'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'better_errors'
+  #gem 'better_errors'
 end
 
 group :development, :test do
-  gem 'bundler-audit'
-  gem 'binding_of_caller'
-  gem 'pry-rails'
-  gem 'pry-byebug'
-  gem 'foreman', require: false
+  # gem 'binding_of_caller'
+  # gem 'pry-rails'
+  # gem 'pry-byebug'
 end
 
 group :test do

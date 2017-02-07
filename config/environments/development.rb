@@ -52,11 +52,6 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  # Check if we use Docker to allow docker ip through web-console
-  if ENV['DOCKERIZED'] == 'true'
-    config.web_console.whitelisted_ips = ENV['DOCKER_HOST_IP']
-  end
-
 end
 
 
